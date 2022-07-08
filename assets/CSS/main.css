@@ -1,0 +1,21 @@
+:root {
+    --main-color: #232323;
+    --font-color: white;
+    --title-font: 'Oswald', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+}
+
+.title {
+    font-family: var(--title-font);
+}
+
+h1 {
+    font-family: var(--title-font);
+}
